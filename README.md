@@ -16,7 +16,8 @@ Use Transformer GAN to generate multi-category synthetic time-series data.
 
 Use Wavelet Coherence score to compare the similarity between two sets of signals.
 
-**The TTS-CGAN Architecture** 
+**The TTS-CGAN Architecture:** 
+
 ![TTS-CGAN Architecture](./TTS-CGAN_arch.png)
 
 ---
