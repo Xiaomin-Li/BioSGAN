@@ -12,7 +12,7 @@ def parse_args():
     return opt
 args = parse_args()
 
-os.system(f"CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python trainCGAN.py \
+os.system(f"CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python trainBioSGAN.py \
 -gen_bs 32 \
 -dis_bs 32 \
 --dist-url 'tcp://localhost:4321' \
@@ -54,4 +54,4 @@ os.system(f"CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python trainCGAN.py \
 --ema_warmup 0.1 \
 --ema 0.9999 \
 --diff_aug translation,cutout,color \
---exp_name mitbithCGAN")
+--exp_name mitbithBioSGAN")

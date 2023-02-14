@@ -5,7 +5,7 @@ import numpy as np
 import torch 
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
-from TransCGAN_model import *
+from BioSGAN_model import *
 from DataLoader import mitbih_train
 
 # Ignore warnings

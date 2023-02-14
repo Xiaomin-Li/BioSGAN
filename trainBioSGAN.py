@@ -4,8 +4,8 @@ from __future__ import print_function
 
 import cfg
 from DataLoader import *
-from TransCGAN_model import * 
-from cgan_functions import train, save_samples, LinearLrDecay, load_params, copy_params, cur_stages
+from BioSGAN_model import * 
+from biosgan_functions import train, save_samples, LinearLrDecay, load_params, copy_params, cur_stages
 from utils import set_log_dir, save_checkpoint, create_logger
 
 import torch
