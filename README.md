@@ -1,7 +1,7 @@
-# BioSGAN: BioSGAN: A Transformer-Based Label-Guided Generative Model for Multi-Class Biosignal Time-Series Synthesis
+# BioSGAN: Generating Realistic Multi-class Biosignals with BioSGAN: A Transformer-based Label-guided Generative Adversarial Network
 ---
 
-This repository contains code from the paper "BioSGAN: BioSGAN: A Transformer-Based Label-Guided Generative Model for Multi-Class Biosignal Time-Series Synthesis".
+This repository contains code from the paper "Generating Realistic Multi-class Biosignals with BioSGAN: A Transformer-based Label-guided Generative Adversarial Network".
 
 ---
 
